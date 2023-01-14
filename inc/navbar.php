@@ -1,0 +1,97 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+            <img src="./img/logo.png" width="75" height="28">
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    Usuarios
+                </a>
+
+                <div class="navbar-dropdown">
+                    <a class="navbar-item">
+                        Crear usuario
+                    </a>
+                    <a class="navbar-item">
+                        Listar usuarios
+                    </a>
+                    <hr class="navbar-divider">
+                    <a class="navbar-item">
+                        Reporte de usuarios
+                    </a>    
+
+                </div>
+            </div>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    Categorias
+                </a>
+
+                <div class="navbar-dropdown">
+                    <a class="navbar-item">
+                        Crear categoria
+                    </a>
+                    <a class="navbar-item">
+                        Listar categorias
+                    </a>
+                    <hr class="navbar-divider">
+                    <a class="navbar-item">
+                        Reporte de categorias
+                    </a>    
+                    
+                </div>
+            </div>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    Productos
+                </a>
+
+                <div class="navbar-dropdown">
+                    <a class="navbar-item">
+                        Crear Producto
+                    </a>
+                    <a class="navbar-item">
+                        Listar Productos
+                    </a>
+                    <hr class="navbar-divider">
+                    <a class="navbar-item">
+                        Productos por categoria
+                    </a>
+                    <a class="navbar-item">
+                        Reporte de Productos
+                    </a>    
+                    
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="buttons">
+                    <a class="button is-primary is-rounder">
+                        Mi cuenta
+                    </a>
+                    <a class="button is-link is-rounder">
+                        Salir
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
